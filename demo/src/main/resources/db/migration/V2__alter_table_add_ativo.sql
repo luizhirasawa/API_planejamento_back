@@ -1,0 +1,10 @@
+alter table cultura add column ativo boolean;
+update cultura set ativo = true;
+alter table insumos add column ativo boolean;
+update insumos set ativo = true;
+alter table planejamento add column ativo boolean;
+update planejamento set ativo = true;
+alter table plantio add column ativo boolean;
+update plantio set ativo = true;
+alter table tipo add column ativo boolean;
+update tipo set ativo = true;
