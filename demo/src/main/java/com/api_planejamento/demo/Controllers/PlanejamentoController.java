@@ -17,6 +17,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.api_planejamento.demo.Planejamento.DadosAtualizaPlanejamento;
 import com.api_planejamento.demo.Planejamento.DadosCadastroPlanejamento;
 import com.api_planejamento.demo.Planejamento.DadosListagemPlanejamento;
+import com.api_planejamento.demo.Planejamento.DadosNomePlanejamento;
 import com.api_planejamento.demo.Planejamento.Planejamento;
 import com.api_planejamento.demo.Planejamento.PlanejamentoRepository;
 
@@ -47,6 +48,13 @@ public class PlanejamentoController {
         return ResponseEntity.ok(lista);
     }
 
+	@GetMapping("/Nome")
+    public ResponseEntity<List<DadosNomePlanejamento>> listarNome(){
+        var lista = rep.findAllByAtivoTrue().stream().map(DadosNomePlanejamento::new).toList();
+		
+		return ResponseEntity.ok(lista);
+    }
+	
     @GetMapping("/{id}")
 	public ResponseEntity<DadosListagemPlanejamento> GetbyId(@PathVariable  Long id) {
 		var planejamento = rep.getReferenceById(id);
