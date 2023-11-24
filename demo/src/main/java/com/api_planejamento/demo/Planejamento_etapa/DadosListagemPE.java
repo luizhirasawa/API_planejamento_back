@@ -2,15 +2,14 @@ package com.api_planejamento.demo.Planejamento_etapa;
 
 public record DadosListagemPE(
     Long id,
-    String codigo,
     String nome_etapa,
     int numero_dias,
-    Status_Etapa estado,
-    Long id_planejamneto
+    StatusEtapa estado,
+    Long id_planejamento
 ) {
 
-    public DadosListagemPE(PlanejamentoEtapa tipos){
-        this(tipos.getId(), tipos.getCodigo(), tipos.getNome_etapa(), tipos.getNumero_dias(), 
-        tipos.getEstado(), tipos.getId_planejamento());
+    public DadosListagemPE(PlanejamentoEtapa PE){
+        this(PE.getId(), PE.getNome_etapa(), PE.getNumero_dias(), 
+        PE.getEstado(), PE.getId_planejamento());
     }
 }

@@ -31,6 +31,7 @@ public class PEController  {
     
     @PostMapping
     public void cadastrar(@RequestBody DadosCadastroPE dados){
+        System.out.println(dados);
         var PE = new PlanejamentoEtapa(dados);
         rep.save(PE);
     }
@@ -41,6 +42,13 @@ public class PEController  {
 		
 		return ResponseEntity.ok(lista);
     }
+
+    @GetMapping("/{id}")
+	public ResponseEntity<DadosListagemPE> GetbyId(@PathVariable  Long id) {
+		var PE = rep.getReferenceById(id);
+		
+		return ResponseEntity.ok(new DadosListagemPE(PE));
+	}
 
     @PutMapping
     @Transactional
