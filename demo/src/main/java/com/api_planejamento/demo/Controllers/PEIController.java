@@ -42,6 +42,13 @@ public class PEIController  {
 		return ResponseEntity.ok(lista);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<DadosListagemPEI> GetbyId(@PathVariable  Long id){
+		var PEI = rep.getReferenceById(id);
+		
+		return ResponseEntity.ok(new DadosListagemPEI(PEI));
+    }
+
     @PutMapping
     @Transactional
     public void atualizar(@RequestBody @Valid DadosAtualizaPEI dados){

@@ -19,6 +19,7 @@ import com.api_planejamento.demo.Cultura.CulturaRepository;
 import com.api_planejamento.demo.Cultura.DadosAtualizaCultura;
 import com.api_planejamento.demo.Cultura.DadosCadastroCultura;
 import com.api_planejamento.demo.Cultura.DadosListagemCultura;
+import com.api_planejamento.demo.Cultura.DadosNomeCultura;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
@@ -55,6 +56,13 @@ public class CulturaController {
 		
 		return ResponseEntity.ok(new DadosListagemCultura(cultura));
 	}
+
+	@GetMapping("/Nome")
+    public ResponseEntity<List<DadosNomeCultura>> listarNome(){
+        var lista = rep.findAll().stream().map(DadosNomeCultura::new).toList();
+		
+		return ResponseEntity.ok(lista);
+    }
 
     @PutMapping
     @Transactional

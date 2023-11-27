@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.api_planejamento.demo.Planejamento_etapa.DadosAtualizaPE;
 import com.api_planejamento.demo.Planejamento_etapa.DadosCadastroPE;
 import com.api_planejamento.demo.Planejamento_etapa.DadosListagemPE;
+import com.api_planejamento.demo.Planejamento_etapa.DadosNomePE;
 import com.api_planejamento.demo.Planejamento_etapa.PERepository;
 import com.api_planejamento.demo.Planejamento_etapa.PlanejamentoEtapa;
 
@@ -49,6 +50,13 @@ public class PEController  {
 		
 		return ResponseEntity.ok(new DadosListagemPE(PE));
 	}
+
+	@GetMapping("/Nome")
+    public ResponseEntity<List<DadosNomePE>> listarNome(){
+        var lista = rep.findAllByAtivoTrue().stream().map(DadosNomePE::new).toList();
+		
+		return ResponseEntity.ok(lista);
+    }
 
     @PutMapping
     @Transactional

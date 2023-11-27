@@ -17,6 +17,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.api_planejamento.demo.Insumos.DadosAtualizaInsumo;
 import com.api_planejamento.demo.Insumos.DadosCadastroInsumo;
 import com.api_planejamento.demo.Insumos.DadosListagemInsumo;
+import com.api_planejamento.demo.Insumos.DadosNomeInsumo;
 import com.api_planejamento.demo.Insumos.Insumo;
 import com.api_planejamento.demo.Insumos.InsumosRepository;
 
@@ -53,6 +54,13 @@ public class InsumosController{
 		
 		return ResponseEntity.ok(new DadosListagemInsumo(insumo));
 	}
+
+	@GetMapping("/Nome")
+    public ResponseEntity<List<DadosNomeInsumo>> listarNome(){
+        var lista = rep.findAllByAtivoTrue().stream().map(DadosNomeInsumo::new).toList();
+		
+		return ResponseEntity.ok(lista);
+    }
 
 
     @PutMapping
