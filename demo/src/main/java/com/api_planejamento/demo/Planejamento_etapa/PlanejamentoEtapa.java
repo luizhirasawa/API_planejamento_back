@@ -1,18 +1,11 @@
 package com.api_planejamento.demo.Planejamento_etapa;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import jakarta.persistence.*;
 
 @Entity(name = "PE")
 @Table(name = "planejamento_etapa")
@@ -36,7 +29,6 @@ public class PlanejamentoEtapa {
     private String nome_etapa;
     private int numero_dias;
     @Enumerated(EnumType.STRING)
-    @Column(name = "estado", columnDefinition = "status_etapa")
     private StatusEtapa estado;
     private Long id_planejamento;
     private boolean ativo;

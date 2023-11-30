@@ -13,35 +13,35 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api_planejamento.demo.Planejamento_etapa_insumo.DadosAtualizaPEI;
-import com.api_planejamento.demo.Planejamento_etapa_insumo.DadosCadastroPEI;
-import com.api_planejamento.demo.Planejamento_etapa_insumo.DadosListagemPEI;
-import com.api_planejamento.demo.Planejamento_etapa_insumo.PEIRepository;
-import com.api_planejamento.demo.Planejamento_etapa_insumo.PlanejamentoEtapaInsumo;
+import com.api_planejamento.demo.InsumoCultura.DadosAtualizaIC;
+import com.api_planejamento.demo.InsumoCultura.DadosCadastroIC;
+import com.api_planejamento.demo.InsumoCultura.DadosListagemIC;
+import com.api_planejamento.demo.InsumoCultura.ICRepository;
+import com.api_planejamento.demo.InsumoCultura.InsumoCultura;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/PlanejamentoEtapaInsumo")
-public class PEIController  {
+@RequestMapping("/InsumoCultura")
+public class ICController  {
 
     @Autowired
-    private PEIRepository rep;
+    private ICRepository rep;
     
     @PostMapping
-    public void cadastrar(@RequestBody DadosCadastroPEI dados){
-        var PEI = new PlanejamentoEtapaInsumo(dados);
-        rep.save(PEI);
+    public void cadastrar(@RequestBody DadosCadastroIC dados){
+        var IC = new InsumoCultura(dados);
+        rep.save(IC);
     }
     
     @GetMapping
-    public ResponseEntity<List<DadosListagemPEI>> listar(){
-        var lista = rep.findAllByAtivoTrue().stream().map(DadosListagemPEI::new).toList();
+    public ResponseEntity<List<DadosListagemIC>> listar(){
+        var lista = rep.findAll().stream().map(DadosListagemIC::new).toList();
 		
 		return ResponseEntity.ok(lista);
     }
-
+    /* 
     @GetMapping("/consulta/{id}")
     public ResponseEntity<List<Object[]>> querry(@PathVariable  Long id) {
         List<Object[]> resultadosConsulta = rep.consultarDadosInsumosPlanejamento(id);
@@ -55,19 +55,19 @@ public class PEIController  {
         
         return ResponseEntity.ok(resultadosConsulta);
     }
-
+    */
     @GetMapping("/{id}")
-    public ResponseEntity<DadosListagemPEI> GetbyId(@PathVariable  Long id){
-		var PEI = rep.getReferenceById(id);
+    public ResponseEntity<DadosListagemIC> GetbyId(@PathVariable  Long id){
+		var IC = rep.getReferenceById(id);
 		
-		return ResponseEntity.ok(new DadosListagemPEI(PEI));
+		return ResponseEntity.ok(new DadosListagemIC(IC));
     }
 
     @PutMapping
     @Transactional
-    public void atualizar(@RequestBody @Valid DadosAtualizaPEI dados){
-        var PEI = rep.getReferenceById(dados.id());
-        PEI.atualizarInfos(dados);
+    public void atualizar(@RequestBody @Valid DadosAtualizaIC dados){
+        var IC = rep.getReferenceById(dados.id());
+        IC.atualizarInfos(dados);
     }
 
     @DeleteMapping("/{id}")
@@ -76,24 +76,6 @@ public class PEIController  {
 		rep.deleteById(id);
 		
 		return ResponseEntity.noContent().build();
-	}
-
-    @DeleteMapping("inativar/{id}")
-	@Transactional
-	public ResponseEntity<Void> excluir_logico(@PathVariable Long id) {
-		var PEI = rep.getReferenceById(id);
-		PEI.inativar();
-		
-		return ResponseEntity.noContent().build();
-	}
-
-    @PutMapping("reativar/{id}")
-	@Transactional
-	public ResponseEntity<Void> ativar_logico(@PathVariable Long id) {
-		var PEI = rep.getReferenceById(id);
-		PEI.reativar();
-		
-		return ResponseEntity.noContent().build();
-	}
+    }
 
 }

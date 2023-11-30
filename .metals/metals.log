@@ -22391,3 +22391,464 @@ WARNING: Unmatched cancel notification for request id 10
 2023.11.22 12:55:31 ERROR '21' is not a valid choice for '-release'
 2023.11.22 12:55:31 ERROR bad option: '-release'
 2023.11.22 12:55:31 INFO  time: compiled demo in 31ms
+2023.11.27 16:48:33 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\kirit\Documents\do\API_planejamento' for client Visual Studio Code 1.84.2.
+2023.11.27 16:48:38 INFO  Attempting to connect to the build server...
+2023.11.27 16:48:38 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\kirit\.bloop\bloop.json
+2023.11.27 16:48:38 INFO  skipping build import with status 'Installed'
+2023.11.27 16:48:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kirit\Documents\do\API_planejamento\.metals\bsp.trace.json or C:\Users\kirit\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.27 16:48:46 INFO  no build target found for C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Scala\ScalaComponent.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.27 16:48:46 INFO  time: Connected to build server in 8.13s
+2023.11.27 16:48:46 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.27 16:48:46 INFO  time: Imported build in 0.22s
+2023.11.27 16:48:52 INFO  time: indexed workspace in 5.65s
+2023.11.27 16:48:54 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.27 16:48:54 ERROR '21' is not a valid choice for '-release'
+2023.11.27 16:48:54 ERROR bad option: '-release'
+2023.11.27 16:48:55 INFO  time: compiled demo in 1.02s
+2023.11.27 16:48:57 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.27 16:48:57 ERROR '21' is not a valid choice for '-release'
+2023.11.27 16:48:57 ERROR bad option: '-release'
+2023.11.27 16:48:57 INFO  time: compiled demo in 17ms
+2023.11.27 16:48:59 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.27 16:48:59 ERROR '21' is not a valid choice for '-release'
+2023.11.27 16:48:59 ERROR bad option: '-release'
+2023.11.27 16:48:59 INFO  time: compiled demo in 15ms
+2023.11.27 17:10:20 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.27 17:10:20 ERROR '21' is not a valid choice for '-release'
+2023.11.27 17:10:20 ERROR bad option: '-release'
+2023.11.27 17:10:20 INFO  time: compiled demo in 11ms
+2023.11.27 17:19:02 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.27 17:19:02 ERROR '21' is not a valid choice for '-release'
+2023.11.27 17:19:02 ERROR bad option: '-release'
+2023.11.27 17:19:02 INFO  time: compiled demo in 12ms
+2023.11.27 17:30:54 INFO  Shutting down server
+2023.11.27 17:30:54 INFO  shutting down Metals
+2023.11.27 17:30:54 INFO  Shut down connection with build server.
+2023.11.27 17:30:54 INFO  Exiting server
+2023.11.28 08:29:27 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\kirit\Documents\do\API_planejamento' for client Visual Studio Code 1.84.2.
+2023.11.28 08:29:28 INFO  Attempting to connect to the build server...
+2023.11.28 08:29:28 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\kirit\.bloop\bloop.json
+2023.11.28 08:29:28 INFO  skipping build import with status 'Installed'
+2023.11.28 08:29:32 INFO  no build target found for C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Scala\ScalaComponent.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.28 08:29:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kirit\Documents\do\API_planejamento\.metals\bsp.trace.json or C:\Users\kirit\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.28 08:29:35 INFO  time: Connected to build server in 6.76s
+2023.11.28 08:29:35 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.28 08:29:35 INFO  time: Imported build in 0.2s
+2023.11.28 08:29:38 INFO  time: indexed workspace in 3.44s
+2023.11.28 08:29:39 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 08:29:39 ERROR '21' is not a valid choice for '-release'
+2023.11.28 08:29:39 ERROR bad option: '-release'
+2023.11.28 08:29:39 INFO  time: compiled demo in 0.61s
+2023.11.28 08:29:42 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 08:29:42 ERROR '21' is not a valid choice for '-release'
+2023.11.28 08:29:42 ERROR bad option: '-release'
+2023.11.28 08:29:42 INFO  time: compiled demo in 26ms
+nov. 28, 2023 8:29:42 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.11.28 09:06:06 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:06:06 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:06:06 ERROR bad option: '-release'
+2023.11.28 09:06:06 INFO  time: compiled demo in 46ms
+2023.11.28 09:42:29 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:42:29 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:42:29 ERROR bad option: '-release'
+2023.11.28 09:42:29 INFO  time: compiled demo in 34ms
+2023.11.28 09:42:34 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:42:34 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:42:34 ERROR bad option: '-release'
+2023.11.28 09:42:34 INFO  time: compiled demo in 9ms
+2023.11.28 09:58:54 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:58:54 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:58:54 ERROR bad option: '-release'
+2023.11.28 09:58:54 INFO  time: compiled demo in 79ms
+2023.11.28 09:58:59 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:58:59 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:58:59 ERROR bad option: '-release'
+2023.11.28 09:58:59 INFO  time: compiled demo in 47ms
+nov. 28, 2023 9:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2023.11.28 09:59:39 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:59:39 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:59:39 ERROR bad option: '-release'
+2023.11.28 09:59:39 INFO  time: compiled demo in 14ms
+2023.11.28 09:59:42 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:59:42 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:59:42 ERROR bad option: '-release'
+2023.11.28 09:59:42 INFO  time: compiled demo in 13ms
+2023.11.28 09:59:52 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:59:52 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:59:52 ERROR bad option: '-release'
+2023.11.28 09:59:52 INFO  time: compiled demo in 18ms
+2023.11.28 09:59:55 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 09:59:55 ERROR '21' is not a valid choice for '-release'
+2023.11.28 09:59:55 ERROR bad option: '-release'
+2023.11.28 09:59:55 INFO  time: compiled demo in 10ms
+nov. 28, 2023 10:00:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+nov. 28, 2023 10:00:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+nov. 28, 2023 10:01:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+nov. 28, 2023 10:10:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.28 10:29:13 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:29:13 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:29:13 ERROR bad option: '-release'
+2023.11.28 10:29:13 INFO  time: compiled demo in 29ms
+nov. 28, 2023 10:29:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+2023.11.28 10:30:14 WARN  Using indexes to guess the definition of PlanejamentoEtapaInsumo
+2023.11.28 10:30:15 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:30:15 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:30:15 ERROR bad option: '-release'
+2023.11.28 10:30:15 INFO  time: compiled demo in 18ms
+2023.11.28 10:30:21 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:30:21 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:30:21 ERROR bad option: '-release'
+2023.11.28 10:30:21 INFO  time: compiled demo in 20ms
+2023.11.28 10:30:26 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:30:26 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:30:26 ERROR bad option: '-release'
+2023.11.28 10:30:26 INFO  time: compiled demo in 15ms
+2023.11.28 10:31:05 WARN  Using indexes to guess the definition of ManyToOne
+2023.11.28 10:31:18 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:31:18 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:31:18 ERROR bad option: '-release'
+2023.11.28 10:31:18 INFO  time: compiled demo in 11ms
+2023.11.28 10:32:27 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:32:27 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:32:27 ERROR bad option: '-release'
+2023.11.28 10:32:27 INFO  time: compiled demo in 6ms
+2023.11.28 10:32:28 ERROR code navigation does not work for the file 'C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Planejamento_etapa_insumo\PlanejamentoEtapaInsumo.java' because the build target demo is being compiled. Wait until compilation is finished and try again.
+2023.11.28 10:32:28 ERROR code navigation does not work for the file 'C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Planejamento_etapa_insumo\PlanejamentoEtapaInsumo.java' because the build target demo is being compiled. Wait until compilation is finished and try again.
+2023.11.28 10:32:28 ERROR code navigation does not work for the file 'C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Planejamento_etapa_insumo\PlanejamentoEtapaInsumo.java' because the build target demo is being compiled. Wait until compilation is finished and try again.
+2023.11.28 10:32:29 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:32:29 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:32:29 ERROR bad option: '-release'
+2023.11.28 10:32:29 INFO  time: compiled demo in 9ms
+nov. 28, 2023 10:41:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+2023.11.28 10:41:57 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:41:57 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:41:57 ERROR bad option: '-release'
+2023.11.28 10:41:57 INFO  time: compiled demo in 9ms
+nov. 28, 2023 10:42:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 397
+nov. 28, 2023 10:43:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 416
+2023.11.28 10:43:01 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:43:01 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:43:01 ERROR bad option: '-release'
+2023.11.28 10:43:01 INFO  time: compiled demo in 13ms
+nov. 28, 2023 10:50:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 448
+nov. 28, 2023 10:52:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 475
+2023.11.28 10:52:48 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:52:48 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:52:48 ERROR bad option: '-release'
+2023.11.28 10:52:48 INFO  time: compiled demo in 14ms
+nov. 28, 2023 10:52:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 481
+2023.11.28 10:52:50 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:52:50 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:52:50 ERROR bad option: '-release'
+2023.11.28 10:52:50 INFO  time: compiled demo in 10ms
+2023.11.28 10:52:58 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:52:58 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:52:58 ERROR bad option: '-release'
+2023.11.28 10:52:58 INFO  time: compiled demo in 9ms
+2023.11.28 10:53:07 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:53:07 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:53:07 ERROR bad option: '-release'
+2023.11.28 10:53:07 INFO  time: compiled demo in 14ms
+nov. 28, 2023 10:53:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 529
+2023.11.28 10:53:09 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:53:09 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:53:09 ERROR bad option: '-release'
+2023.11.28 10:53:09 INFO  time: compiled demo in 6ms
+2023.11.28 10:53:16 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 10:53:16 ERROR '21' is not a valid choice for '-release'
+2023.11.28 10:53:16 ERROR bad option: '-release'
+2023.11.28 10:53:16 INFO  time: compiled demo in 17ms
+2023.11.28 13:22:22 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:22:22 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:22:22 ERROR bad option: '-release'
+2023.11.28 13:22:22 INFO  time: compiled demo in 11ms
+2023.11.28 13:25:49 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:25:49 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:25:49 ERROR bad option: '-release'
+2023.11.28 13:25:49 INFO  time: compiled demo in 9ms
+nov. 28, 2023 1:25:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 578
+2023.11.28 13:25:52 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:25:52 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:25:52 ERROR bad option: '-release'
+2023.11.28 13:25:52 INFO  time: compiled demo in 7ms
+nov. 28, 2023 1:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 590
+2023.11.28 13:25:58 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:25:58 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:25:58 ERROR bad option: '-release'
+2023.11.28 13:25:58 INFO  time: compiled demo in 8ms
+2023.11.28 13:26:13 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:26:13 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:26:13 ERROR bad option: '-release'
+2023.11.28 13:26:13 INFO  time: compiled demo in 10ms
+2023.11.28 13:26:13 ERROR code navigation does not work for the file 'C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Planejamento_etapa_insumo\PlanejamentoEtapaInsumo.java' because the build target demo is being compiled. Wait until compilation is finished and try again.
+2023.11.28 13:26:14 ERROR code navigation does not work for the file 'C:\Users\kirit\Documents\do\API_planejamento\demo\src\main\java\com\api_planejamento\demo\Planejamento_etapa_insumo\PlanejamentoEtapaInsumo.java' because the build target demo is being compiled. Wait until compilation is finished and try again.
+2023.11.28 13:26:20 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:26:20 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:26:20 ERROR bad option: '-release'
+2023.11.28 13:26:20 INFO  time: compiled demo in 22ms
+2023.11.28 13:28:31 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:28:31 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:28:31 ERROR bad option: '-release'
+2023.11.28 13:28:31 INFO  time: compiled demo in 13ms
+2023.11.28 13:56:27 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 13:56:27 ERROR '21' is not a valid choice for '-release'
+2023.11.28 13:56:27 ERROR bad option: '-release'
+2023.11.28 13:56:27 INFO  time: compiled demo in 13ms
+2023.11.28 14:52:10 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 14:52:10 ERROR '21' is not a valid choice for '-release'
+2023.11.28 14:52:10 ERROR bad option: '-release'
+2023.11.28 14:52:10 INFO  time: compiled demo in 8ms
+2023.11.28 14:52:53 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 14:52:53 ERROR '21' is not a valid choice for '-release'
+2023.11.28 14:52:53 ERROR bad option: '-release'
+2023.11.28 14:52:53 INFO  time: compiled demo in 8ms
+nov. 28, 2023 2:55:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 707
+nov. 28, 2023 2:55:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 722
+nov. 28, 2023 2:55:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 721
+nov. 28, 2023 2:55:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 744
+nov. 28, 2023 2:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 765
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 787
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 788
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 791
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 789
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 793
+nov. 28, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 792
+nov. 28, 2023 2:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 802
+2023.11.28 14:58:56 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 14:58:56 ERROR '21' is not a valid choice for '-release'
+2023.11.28 14:58:56 ERROR bad option: '-release'
+2023.11.28 14:58:56 INFO  time: compiled demo in 8ms
+2023.11.28 15:00:01 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:00:01 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:00:01 ERROR bad option: '-release'
+2023.11.28 15:00:01 INFO  time: compiled demo in 11ms
+2023.11.28 15:02:15 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:02:15 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:02:15 ERROR bad option: '-release'
+2023.11.28 15:02:15 INFO  time: compiled demo in 6ms
+2023.11.28 15:03:42 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:03:42 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:03:42 ERROR bad option: '-release'
+2023.11.28 15:03:42 INFO  time: compiled demo in 13ms
+2023.11.28 15:03:51 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:03:51 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:03:51 ERROR bad option: '-release'
+2023.11.28 15:03:51 INFO  time: compiled demo in 5ms
+nov. 28, 2023 3:04:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1103
+2023.11.28 15:04:20 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:04:20 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:04:20 ERROR bad option: '-release'
+2023.11.28 15:04:20 INFO  time: compiled demo in 7ms
+2023.11.28 15:12:46 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:12:46 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:12:46 ERROR bad option: '-release'
+2023.11.28 15:12:46 INFO  time: compiled demo in 10ms
+2023.11.28 15:12:52 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:12:52 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:12:52 ERROR bad option: '-release'
+2023.11.28 15:12:52 INFO  time: compiled demo in 10ms
+nov. 28, 2023 3:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1151
+2023.11.28 15:12:58 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:12:58 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:12:58 ERROR bad option: '-release'
+2023.11.28 15:12:58 INFO  time: compiled demo in 6ms
+nov. 28, 2023 3:13:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1160
+2023.11.28 15:13:06 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:13:06 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:13:06 ERROR bad option: '-release'
+2023.11.28 15:13:06 INFO  time: compiled demo in 6ms
+nov. 28, 2023 3:13:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1169
+nov. 28, 2023 3:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1176
+nov. 28, 2023 3:13:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1182
+nov. 28, 2023 3:13:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1184
+2023.11.28 15:13:38 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:13:38 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:13:38 ERROR bad option: '-release'
+2023.11.28 15:13:38 INFO  time: compiled demo in 10ms
+nov. 28, 2023 3:14:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1239
+2023.11.28 15:14:53 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:14:53 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:14:53 ERROR bad option: '-release'
+2023.11.28 15:14:53 INFO  time: compiled demo in 23ms
+2023.11.28 15:48:47 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:48:47 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:48:47 ERROR bad option: '-release'
+2023.11.28 15:48:47 INFO  time: compiled demo in 3ms
+2023.11.28 15:49:10 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:49:10 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:49:10 ERROR bad option: '-release'
+2023.11.28 15:49:10 INFO  time: compiled demo in 7ms
+2023.11.28 15:51:42 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:51:42 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:51:42 ERROR bad option: '-release'
+2023.11.28 15:51:42 INFO  time: compiled demo in 22ms
+2023.11.28 15:54:19 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:54:19 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:54:19 ERROR bad option: '-release'
+2023.11.28 15:54:19 INFO  time: compiled demo in 11ms
+2023.11.28 15:54:22 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:54:22 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:54:22 ERROR bad option: '-release'
+2023.11.28 15:54:22 INFO  time: compiled demo in 9ms
+nov. 28, 2023 3:55:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1561
+nov. 28, 2023 3:55:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1583
+nov. 28, 2023 3:55:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1600
+2023.11.28 15:55:28 WARN  Using indexes to guess the definition of consultarDadosInsumosPlanejamento
+nov. 28, 2023 3:55:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1599
+nov. 28, 2023 3:55:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1602
+nov. 28, 2023 3:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1608
+nov. 28, 2023 3:55:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1611
+nov. 28, 2023 3:55:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1612
+nov. 28, 2023 3:55:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1613
+nov. 28, 2023 3:55:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1620
+nov. 28, 2023 3:56:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1661
+nov. 28, 2023 3:56:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1663
+2023.11.28 15:56:09 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:56:09 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:56:09 ERROR bad option: '-release'
+2023.11.28 15:56:09 INFO  time: compiled demo in 7ms
+nov. 28, 2023 3:56:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1703
+nov. 28, 2023 3:56:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+2023.11.28 15:56:24 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 15:56:24 ERROR '21' is not a valid choice for '-release'
+2023.11.28 15:56:24 ERROR bad option: '-release'
+2023.11.28 15:56:24 INFO  time: compiled demo in 13ms
+nov. 28, 2023 3:56:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1716
+nov. 28, 2023 3:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1732
+nov. 28, 2023 3:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1733
+nov. 28, 2023 3:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1738
+2023.11.28 16:18:47 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:18:47 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:18:47 ERROR bad option: '-release'
+2023.11.28 16:18:47 INFO  time: compiled demo in 28ms
+nov. 28, 2023 4:19:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1851
+2023.11.28 16:19:39 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:19:39 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:19:39 ERROR bad option: '-release'
+2023.11.28 16:19:39 INFO  time: compiled demo in 10ms
+nov. 28, 2023 4:36:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1939
+2023.11.28 16:36:49 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:36:49 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:36:49 ERROR bad option: '-release'
+2023.11.28 16:36:49 INFO  time: compiled demo in 11ms
+2023.11.28 16:36:51 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:36:51 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:36:51 ERROR bad option: '-release'
+2023.11.28 16:36:51 INFO  time: compiled demo in 18ms
+nov. 28, 2023 4:37:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1956
+2023.11.28 16:37:22 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:37:22 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:37:22 ERROR bad option: '-release'
+2023.11.28 16:37:22 INFO  time: compiled demo in 11ms
+nov. 28, 2023 4:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1973
+nov. 28, 2023 4:49:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2047
+nov. 28, 2023 4:49:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2059
+nov. 28, 2023 4:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2140
+nov. 28, 2023 4:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2220
+nov. 28, 2023 4:50:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2274
+2023.11.28 16:50:50 WARN  Using indexes to guess the definition of List
+nov. 28, 2023 4:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2288
+nov. 28, 2023 4:51:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2327
+nov. 28, 2023 4:51:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2343
+2023.11.28 16:51:46 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:51:46 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:51:46 ERROR bad option: '-release'
+2023.11.28 16:51:46 INFO  time: compiled demo in 16ms
+2023.11.28 16:52:14 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:52:14 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:52:14 ERROR bad option: '-release'
+2023.11.28 16:52:14 INFO  time: compiled demo in 9ms
+2023.11.28 16:52:26 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:52:26 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:52:26 ERROR bad option: '-release'
+2023.11.28 16:52:26 INFO  time: compiled demo in 19ms
+2023.11.28 16:54:08 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:54:08 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:54:08 ERROR bad option: '-release'
+2023.11.28 16:54:08 INFO  time: compiled demo in 20ms
+2023.11.28 16:54:18 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:54:18 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:54:18 ERROR bad option: '-release'
+2023.11.28 16:54:18 INFO  time: compiled demo in 12ms
+nov. 28, 2023 4:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2619
+nov. 28, 2023 4:55:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2637
+nov. 28, 2023 4:55:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2644
+nov. 28, 2023 4:55:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2661
+2023.11.28 16:55:22 WARN  Using indexes to guess the definition of consultarDadosCustoInsumo
+nov. 28, 2023 4:55:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2679
+2023.11.28 16:55:34 WARN  Using indexes to guess the definition of consultarDadosInsumosPlanejamento
+2023.11.28 16:55:35 INFO  compiling demo (1 scala source and 49 java sources)
+2023.11.28 16:55:35 ERROR '21' is not a valid choice for '-release'
+2023.11.28 16:55:35 ERROR bad option: '-release'
+2023.11.28 16:55:35 INFO  time: compiled demo in 6ms
