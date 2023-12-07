@@ -14,7 +14,8 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
+		<!--<scala.version>3.3.1</scala.version>-->
 		<scala.version>2.13.12</scala.version>
 	</properties>
 	<dependencies>
@@ -80,6 +81,7 @@
 		<dependency>
 			<groupId>org.scala-lang</groupId>
 			<artifactId>scala-library</artifactId>
+			<!--<version>3.3.1</version>-->
 			<version>2.13.12</version>
 		</dependency>
 
@@ -102,11 +104,10 @@
 					</excludes>
 				</configuration>
 			</plugin>
-
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
 				<artifactId>scala-maven-plugin</artifactId>
-				<version>4.8.1</version> <!-- Use a versão mais recente do Scala Maven Plugin -->
+				<version>4.8.1</version> 
 				<executions>
 					<execution>
 						<?m2e execute onConfiguration?>

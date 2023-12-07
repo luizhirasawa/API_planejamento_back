@@ -2,16 +2,16 @@
     "version": "1.4.0",
     "project": {
         "name": "demo",
-        "directory": "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo",
-        "workspaceDir": "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo",
+        "directory": "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo",
+        "workspaceDir": "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo",
         "sources": [
-            "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\src\\main\\java"
+            "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\src\\main\\java"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\target\\classes",
+            "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\target\\classes",
             "C:\\Users\\kirit\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-data-jpa\\3.2.0\\spring-boot-starter-data-jpa-3.2.0.jar",
             "C:\\Users\\kirit\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-aop\\3.2.0\\spring-boot-starter-aop-3.2.0.jar",
             "C:\\Users\\kirit\\.m2\\repository\\org\\springframework\\spring-aop\\6.1.1\\spring-aop-6.1.1.jar",
@@ -104,11 +104,11 @@
             "C:\\Users\\kirit\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
             "C:\\Users\\kirit\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
         ],
-        "out": "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\target",
-        "classesDir": "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\target\\classes",
+        "out": "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\target",
+        "classesDir": "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\target\\classes",
         "resources": [
-            "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\src\\main\\resources",
-            "C:\\Users\\kirit\\Documents\\do\\API_planejamento\\demo\\src\\main\\resources"
+            "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\src\\main\\resources",
+            "C:\\Users\\kirit\\Documents\\API\\API_planejamento_back\\demo\\src\\main\\resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -202,7 +202,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-21",
+                "home": "C:\\Program Files (x86)\\Java\\jre-1.8",
                 "options": [
                     
                 ]
