@@ -1,0 +1,113 @@
+file:///C:/Users/kirit/Documents/API/API_planejamento_back/demo/src/main/java/com/api_planejamento/demo/Controllers/ICController.java
+### java.util.NoSuchElementException: next on empty iterator
+
+occurred in the presentation compiler.
+
+action parameters:
+offset: 1487
+uri: file:///C:/Users/kirit/Documents/API/API_planejamento_back/demo/src/main/java/com/api_planejamento/demo/Controllers/ICController.java
+text:
+```scala
+package com.api_planejamento.demo.Controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.api_planejamento.demo.InsumoCultura.DadosAtualizaIC;
+import com.api_planejamento.demo.InsumoCultura.DadosCadastroIC;
+import com.api_planejamento.demo.InsumoCultura.DadosListagemIC;
+import com.api_planejamento.demo.InsumoCultura.ICRepository;
+import com.api_planejamento.demo.InsumoCultura.InsumoCultura;
+
+import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/InsumoCultura")
+public class ICController  {
+
+    @Autowired
+    private ICRepository rep;
+    
+    @PostMapping
+    public void cadastrar(@RequestBody DadosCadastroIC dados){
+        var IC = new InsumoCultura(dados);
+        rep.save(IC);
+    }
+    
+    @GetMapping
+    public ResponseEntity<List<DadosListagemIC>> listar(){
+        var lista = rep.@@findAll().stream().map(DadosListagemIC::new).toList();
+		
+		return ResponseEntity.ok(lista);
+    }
+    /* 
+    @GetMapping("/consulta/{id}")
+    public ResponseEntity<List<Object[]>> querry(@PathVariable  Long id) {
+        List<Object[]> resultadosConsulta = rep.consultarDadosInsumosPlanejamento(id);
+
+        return ResponseEntity.ok(resultadosConsulta);
+    }
+
+    @GetMapping("/custo/{id}")
+    public ResponseEntity<List<Object[]>> custo(@PathVariable  Long id) {
+        List<Object[]> resultadosConsulta = rep.consultarDadosCustoInsumo(id);
+        
+        return ResponseEntity.ok(resultadosConsulta);
+    }
+    */
+    @GetMapping("/{id}")
+    public ResponseEntity<DadosListagemIC> GetbyId(@PathVariable  Long id){
+		var IC = rep.getReferenceById(id);
+		
+		return ResponseEntity.ok(new DadosListagemIC(IC));
+    }
+
+    @PutMapping
+    @Transactional
+    public void atualizar(@RequestBody @Valid DadosAtualizaIC dados){
+        var IC = rep.getReferenceById(dados.id());
+        IC.atualizarInfos(dados);
+    }
+
+    @DeleteMapping("/{id}")
+	@Transactional
+	public ResponseEntity<Void> excluir(@PathVariable  Long id) {
+		rep.deleteById(id);
+		
+		return ResponseEntity.noContent().build();
+    }
+
+}
+
+```
+
+
+
+#### Error stacktrace:
+
+```
+scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	scala.collection.mutable.MutationTracker$CheckedIterator.next(MutationTracker.scala:76)
+	scala.collection.IterableOps.head(Iterable.scala:222)
+	scala.collection.IterableOps.head$(Iterable.scala:222)
+	scala.collection.AbstractIterable.head(Iterable.scala:933)
+	dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:168)
+	scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:45)
+	scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:34)
+	scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:342)
+```
+#### Short summary: 
+
+java.util.NoSuchElementException: next on empty iterator
